@@ -1,0 +1,43 @@
+body{
+    overflow: hidden;
+}
+.bg{
+    height: 100vh;
+    background-color: #111;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+.con_1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.con_1 h1{
+    font-size: 8vw;
+    font-weight: 700;
+    color: #222;
+}
+.bg p{
+    font-size: 20px;
+    font-weight: 700;
+    color: #333;
+    padding-top: 3%;
+}
+::selection{
+    color: orange;
+}
+.fore_ground{
+    height: 100vh;
+    width: 100%;
+    z-index: 2;
+}
+.box1{
+    background-color: #222;
+    border-radius: 50px;
+    height: 260px;
+}
+.box1 p{
+    font-size: 13px;
+}
