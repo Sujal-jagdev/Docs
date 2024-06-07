@@ -6,7 +6,7 @@ const Bg = () => {
     <div className="bg">
         <p className='text-center'>Documents.</p>
         <div className="con_1">
-          <h1>Docs.</h1>
+          <h1>Drag It Now</h1>
         </div>
       </div>
     </>
